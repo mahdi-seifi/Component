@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Safedesign | Vertical slider</title>
+	<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.0.13/css/all.css'>
+	<link rel="stylesheet" href="./style.css">
+<link href="https://cdn.rawgit.com/rastikerdar/shabnam-font/v4.0.0/dist/font-face.css" rel="stylesheet" type="text/css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+</head>
+
+<body>
+
+
+	<ul id="articles">
+
+	</ul>
+
+	<nav>
+		<button class="prev-article" disabled><i class="fas fa-arrow-left"></i></button>
+		<button class="next-article"><i class="fas fa-arrow-right"></i></button>
+	</nav>
+
+
+	<script type="template" id="article-template">
+  <li class="{{category}}" style="z-index:{{z-index}};">
+    <div class="card-image">
+    </div>
+    <div class="card-content">
+      <p class="eyebrow-title">{{category}}</p>
+      <h2>{{title}}</h2>
+      <p class="date">{{pubDate}}</p>
+      <div class="description">
+        {{description}}
+        <p class="read-more"><a target="_blank" tabindex="-1" rel="noreferrer noopener" href="{{url}}">ادامه مطلب</a></p>
+      </div>
+    </div>
+  </li>
+</script>
+
+	<div id="backup">
+		<channel>
+			<item>
+				<title>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است
+					چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است</title>
+				<link>
+				https://www.soompi.com/2018/06/05/bts-drops-special-bangtan-news-interview-dance-practice-video-2018-bts-festa/
+				</link>
+				<comments>
+					https://www.soompi.com/2018/06/05/bts-drops-special-bangtan-news-interview-dance-practice-video-2018-bts-festa/#respond
+				</comments>
+				<pubDate>Tue, 05 Jun 2018 15:20:44 +0000</pubDate>
+				<category>سورس</category>
+				<description>
+					<p>اطلاعات کافی و بیشتر برای استفاده از زبانهای مختلف برنامه نویسی و الگوریتم های مختلف نرم افزاری در
+						کُدِنتو. برای قبول تبلیغات در کُدِنتو باید ابتدا با پشتیبان صحبت کرد و سپس در مورد اطلاعات باقی
+						مانده ، اطلاعات کافی را بر اساس اطلاعات گذشته کسب کرد.</p>
+					<p>The post <a rel="nofollow"
+							href="https://www.soompi.com/2018/06/05/bts-drops-special-bangtan-news-interview-dance-practice-video-2018-bts-festa/">BTS
+							ادامه مطلب
+							Festa</a> appeared first on <a rel="nofollow" href="https://www.soompi.com">Soompi</a>.</p>
+				</description>
+				<post-id xmlns="com-wordpress:feed-additions:1">1180759</post-id>
+			</item>
+			<item>
+				<title>
+					لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها
+					و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است
+				</title>
+				<link>ادامه</link>
+				
+				<pubDate>Tue, 05 Jun 2018 13:10:54 +0000</pubDate>
+				<category>ترانه</category>
+				<description>
+					<p>اطلاعات کافی و بیشتر برای استفاده از زبانهای مختلف برنامه نویسی و الگوریتم های مختلف نرم افزاری در
+						کُدِنتو. برای قبول تبلیغات در کُدِنتو باید ابتدا با پشتیبان صحبت کرد و سپس در مورد اطلاعات باقی
+						مانده ، اطلاعات کافی را بر اساس اطلاعات گذشته کسب کرد.
+					</p>
+					<a rel="nofollow" href="#">
+						ادامه مطلب
+					</a>
+				</description>
+				<post-id xmlns="com-wordpress:feed-additions:1">1180737</post-id>
+			</item>
+			<item>
+				<title>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است
+					چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است</title>
+				<link>https://www.soompi.com/2018/06/04/btss-v-shows-love-park-seo-joon-humorous-thoughtful-gift/</link>
+				<comments>
+					https://www.soompi.com/2018/06/04/btss-v-shows-love-park-seo-joon-humorous-thoughtful-gift/#respond
+				</comments>
+				<category>تصویر</category>
+				<description>
+					<p>اطلاعات کافی و بیشتر برای استفاده از زبانهای مختلف برنامه نویسی و الگوریتم های مختلف نرم افزاری در
+						کُدِنتو. برای قبول تبلیغات در کُدِنتو باید ابتدا با پشتیبان صحبت کرد و سپس در مورد اطلاعات باقی
+						مانده ، اطلاعات کافی را بر اساس اطلاعات گذشته کسب کرد.
+					</p>
+					<a rel="nofollow" href="#">
+						ادامه مطلب
+					</a>
+				</description>
+				<post-id xmlns="com-wordpress:feed-additions:1">1180593</post-id>
+			</item>
+			<item>
+				<title>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است
+					چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است</title>
+				<link>
+				https://www.soompi.com/2018/06/04/yubin-comments-bts-billboard-success-talks-wonder-girls-u-s-experience/
+				</link>
+				<comments>
+					https://www.soompi.com/2018/06/04/yubin-comments-bts-billboard-success-talks-wonder-girls-u-s-experience/#respond
+				</comments>
+				<pubDate>Tue, 05 Jun 2018 02:58:06 +0000</pubDate>
+				<category>مشاهیر</category>
+				<description>
+					<p>اطلاعات کافی و بیشتر برای استفاده از زبانهای مختلف برنامه نویسی و الگوریتم های مختلف نرم افزاری در
+						کُدِنتو. برای قبول تبلیغات در کُدِنتو باید ابتدا با پشتیبان صحبت کرد و سپس در مورد اطلاعات باقی
+						مانده ، اطلاعات کافی را بر اساس اطلاعات گذشته کسب کرد.
+					</p>
+					<a rel="nofollow" href="#">
+						ادامه مطلب
+					</a>
+				</description>
+				<post-id xmlns="com-wordpress:feed-additions:1">1180585</post-id>
+			</item>
+			<item>
+				<title>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است
+					چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است</title>
+				<link>https://www.soompi.com/2018/06/04/11-memorable-moments-btss-time-united-states-year/</link>
+				<comments>https://www.soompi.com/2018/06/04/11-memorable-moments-btss-time-united-states-year/#respond
+				</comments>
+				<pubDate>Tue, 05 Jun 2018 01:51:13 +0000</pubDate>
+				<category>تاریخی</category>
+				<description>
+					<p>اطلاعات کافی و بیشتر برای استفاده از زبانهای مختلف برنامه نویسی و الگوریتم های مختلف نرم افزاری در
+						کُدِنتو. برای قبول تبلیغات در کُدِنتو باید ابتدا با پشتیبان صحبت کرد و سپس در مورد اطلاعات باقی
+						مانده ، اطلاعات کافی را بر اساس اطلاعات گذشته کسب کرد.
+					</p>
+					<a rel="nofollow" href="#">
+						ادامه مطلب
+					</a>
+				</description>
+				<post-id xmlns="com-wordpress:feed-additions:1">1179855</post-id>
+			</item>
+			<item>
+				<title>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است
+					چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است</title>
+				<link>https://www.soompi.com/2018/06/04/book-inspired-btss-magic-shop-becomes-best-seller-korea/</link>
+				<comments>
+					https://www.soompi.com/2018/06/04/book-inspired-btss-magic-shop-becomes-best-seller-korea/#respond
+				</comments>
+				<pubDate>Mon, 04 Jun 2018 18:04:54 +0000</pubDate>
+				<category>ترانه</category>
+				<description>
+					<p>اطلاعات کافی و بیشتر برای استفاده از زبانهای مختلف برنامه نویسی و الگوریتم های مختلف نرم افزاری در
+						کُدِنتو. برای قبول تبلیغات در کُدِنتو باید ابتدا با پشتیبان صحبت کرد و سپس در مورد اطلاعات باقی
+						مانده ، اطلاعات کافی را بر اساس اطلاعات گذشته کسب کرد.
+					</p>
+					<a rel="nofollow" href="#">
+						ادامه مطلب
+					</a>
+				</description>
+				<post-id xmlns="com-wordpress:feed-additions:1">1180447</post-id>
+			</item>
+			<item>
+				<title>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است
+					چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است</title>
+				<link>
+				https://www.soompi.com/2018/06/04/bts-and-army-relive-some-best-moments-past-year-special-photo-collection/
+				</link>
+				<comments>
+					https://www.soompi.com/2018/06/04/bts-and-army-relive-some-best-moments-past-year-special-photo-collection/#respond
+				</comments>
+				<pubDate>Mon, 04 Jun 2018 15:26:50 +0000</pubDate>
+				<category>Celeb</category>
+				<description>
+					<p>اطلاعات کافی و بیشتر برای استفاده از زبانهای مختلف برنامه نویسی و الگوریتم های مختلف نرم افزاری در
+						کُدِنتو. برای قبول تبلیغات در کُدِنتو باید ابتدا با پشتیبان صحبت کرد و سپس در مورد اطلاعات باقی
+						مانده ، اطلاعات کافی را بر اساس اطلاعات گذشته کسب کرد.
+					</p>
+					<a rel="nofollow" href="#">
+						ادامه مطلب
+					</a>
+				</description>
+				<post-id xmlns="com-wordpress:feed-additions:1">1180291</post-id>
+			</item>
+			<item>
+				<title>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است
+					چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است</title>
+				<link>
+				https://www.soompi.com/2018/06/03/bts-achieves-perfect-score-fake-love-soompis-k-pop-music-chart-2018-june-week-1/
+				</link>
+				<comments>
+					https://www.soompi.com/2018/06/03/bts-achieves-perfect-score-fake-love-soompis-k-pop-music-chart-2018-june-week-1/#respond
+				</comments>
+				<pubDate>Mon, 04 Jun 2018 06:02:39 +0000</pubDate>
+				<category>Features</category>
+				<description>
+					<p>اطلاعات کافی و بیشتر برای استفاده از زبانهای مختلف برنامه نویسی و الگوریتم های مختلف نرم افزاری در
+						کُدِنتو. برای قبول تبلیغات در کُدِنتو باید ابتدا با پشتیبان صحبت کرد و سپس در مورد اطلاعات باقی
+						مانده ، اطلاعات کافی را بر اساس اطلاعات گذشته کسب کرد.
+					</p>
+					<a rel="nofollow" href="#">
+						ادامه مطلب
+					</a>
+				</description>
+				<post-id xmlns="com-wordpress:feed-additions:1">1179731</post-id>
+			</item>
+			<item>
+				<title>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است
+					چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است</title>
+				<link>https://www.soompi.com/2018/06/03/watch-bts-unveils-action-packed-fake-love-mv-shooting-video/
+				</link>
+				<comments>
+					https://www.soompi.com/2018/06/03/watch-bts-unveils-action-packed-fake-love-mv-shooting-video/#respond
+				</comments>
+				<pubDate>Mon, 04 Jun 2018 05:34:21 +0000</pubDate>
+				<category>Celeb</category>
+				<description>
+					<p>اطلاعات کافی و بیشتر برای استفاده از زبانهای مختلف برنامه نویسی و الگوریتم های مختلف نرم افزاری در
+						کُدِنتو. برای قبول تبلیغات در کُدِنتو باید ابتدا با پشتیبان صحبت کرد و سپس در مورد اطلاعات باقی
+						مانده ، اطلاعات کافی را بر اساس اطلاعات گذشته کسب کرد.
+					</p>
+					<a rel="nofollow" href="#">
+						ادامه مطلب
+					</a>
+				</description>
+				<post-id xmlns="com-wordpress:feed-additions:1">1180117</post-id>
+			</item>
+			<item>
+				<title>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است
+					چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است</title>
+				<link>https://www.soompi.com/2018/06/03/bts-announces-worldwide-digital-release-fake-love-rock-remix/
+				</link>
+				<comments>
+					https://www.soompi.com/2018/06/03/bts-announces-worldwide-digital-release-fake-love-rock-remix/#respond
+				</comments>
+				<pubDate>Mon, 04 Jun 2018 03:44:40 +0000</pubDate>
+				<category>Music</category>
+				<description>
+					<p>اطلاعات کافی و بیشتر برای استفاده از زبانهای مختلف برنامه نویسی و الگوریتم های مختلف نرم افزاری در
+						کُدِنتو. برای قبول تبلیغات در کُدِنتو باید ابتدا با پشتیبان صحبت کرد و سپس در مورد اطلاعات باقی
+						مانده ، اطلاعات کافی را بر اساس اطلاعات گذشته کسب کرد.
+					</p>
+					<a rel="nofollow" href="#">
+						ادامه مطلب
+					</a>
+				</description>
+				<post-id xmlns="com-wordpress:feed-additions:1">1180055</post-id>
+			</item>
+			<item>
+				<title>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است
+					چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است</title>
+				<link>https://www.soompi.com/2018/06/03/btss-love-tear-continues-chart-high-billboard-200-2nd-week/
+				</link>
+				<comments>
+					https://www.soompi.com/2018/06/03/btss-love-tear-continues-chart-high-billboard-200-2nd-week/#respond
+				</comments>
+				<category>Music</category>
+				<description>
+					<p>اطلاعات کافی و بیشتر برای استفاده از زبانهای مختلف برنامه نویسی و الگوریتم های مختلف نرم افزاری در
+						کُدِنتو. برای قبول تبلیغات در کُدِنتو باید ابتدا با پشتیبان صحبت کرد و سپس در مورد اطلاعات باقی
+						مانده ، اطلاعات کافی را بر اساس اطلاعات گذشته کسب کرد.
+					</p>
+					<a rel="nofollow" href="#">
+						ادامه مطلب
+					</a>
+				</description>
+				<post-id xmlns="com-wordpress:feed-additions:1">1180021</post-id>
+			</item>
+		</channel>
+	</div>
+
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js'></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.js'></script>
+	<script src="./script.js"></script>
+
+</body>
+
+</html>
